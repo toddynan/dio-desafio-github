@@ -1,0 +1,32 @@
+quando o e-mail e o nickname são diferentes entre git e github:
+
+apresentando todas as configurações do git:
+
+1) git config --list
+
+para mudá-los:
+
+2) git config --global --unset user.email
+3) git config --global --unset user.name
+4) git config --global user.email "renan.garcia013@gmail.com"
+5) git config --global user.name toddynan
+
+criar o repositório livro-receitas no github...
+
+1) pegar o link deste repositório
+
+adicionar a origem do repositório remoto:
+
+2) git remote add origin https://github.com/toddynan/livro-receitas.git
+3) git remote -v
+
+será listado os repositórios remotos cadastrados...
+
+4) git status
+
+não há pendências no repositório
+
+empurrando os arquivos do repositório local para o remoto:
+
+5) git push origin master -> origin é o apelido para o link do repositório no github
+6) autenticar com o token já criado anteriormente e abrir o repositório no github
