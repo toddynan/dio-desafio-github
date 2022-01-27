@@ -1,0 +1,17 @@
+puxando o repositório do github que está alterado de forma diferente ao da máquina:
+
+1) git pull origin master
+
+ele vai tentar integrar os dois repositórios, que estão alterados na mesma linha, mas n vai dar certo (conflito de merge)
+
+é preciso mostrar no markdown qual é a alteração certa naquela linha, fazendo com que o conflito seja resolvido
+
+2) git status
+
+both modified (dois arquivos modificados)
+
+3) git add *
+4) git commit -m "resolve conflito
+5) git push origin master
+
+empurrar para que a nossa versão seja a mais atual

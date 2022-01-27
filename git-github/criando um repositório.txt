@@ -1,0 +1,41 @@
+criando um repositório
+
+atalho no git bash para limpar: ctrl+L
+atalho no git bash para listar: ls
+
+1) criar o diretório livro-receitas
+
+criando um repositório vazio:
+
+2) usar o comando dentro de livro-receitas: git init (essa é uma pasta .git oculta - onde o git versiona os objetos que manipulamos)
+
+usando uma flag que mostra arquivos ocultos:
+
+3) usar o comando dentro de livro-receitas: ls -a
+
+4) cd .git/ 
+5) ls (ver oq tem na pasta - objetos por exemplo)
+
+6) cd .. (voltar a livro-receitas)
+
+configurando um email no git:
+
+7) git config --global user.email "renan.garcia013@gmail.com"
+
+configurando um username:
+
+8) git config --global user.name toddynan
+
+em um editor de texto de extensão markdown, fazer um arquivo de texto
+para editar os textos, é como no jupyter... 
+dá para colocar emoji como por exemplo :chicken:
+
+no git bash, criando um commit em livro-receitas:
+
+9) git add *
+10) git commit -m "commit inicial" (a string é a mensagem para identificar o commit e para entender oq ele significa dentro das nossas alterações)
+
+é gerado o primeiros caracteres do sha1 que identifica o commit
+
+
+

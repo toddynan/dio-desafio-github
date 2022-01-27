@@ -1,0 +1,64 @@
+passo a passo no ciclo de vida
+
+1) com git init, o arquivo está untracked (o git não o conhece)
+2) com git add, ele passa de untracked para staged (esperando p entrar em ação)
+3) quando aplicamos um commit nele (envelopa todas as informações com significância, escreve uma mensagem, carrega um autor, uma data), 
+   que retorna o arquivo para unmodified -> "terminei todas as alterações no arquivo e vou tirar uma 'foto' do código que vai estar salvo no commit"
+4) se removemos o arquivo, ele volta p untracked
+5) se em unmodified, alteramos o arquivo, ele passa para modified, e se aplicamos um commit nele, ele primeiro vai para staged e depois volta p unmodified (ciclo)
+
+os arquivos transitam entre repositório de trabalho e área de stage... quando é feito um commit, ele é passado para o repositório local, que só é composto por commits,
+para ser mandado para o repositório remoto 
+
+no git bash, em livro-receitas:
+
+6) git status diz se é untracked, unmodified, modified, staged...
+
+em livro-receitas, listando, aparece só strogonoff.md:
+
+7) git status diz que não há nada para commitar, pois já foi commitado.
+
+criando um diretório:
+
+8) mkdir receitas
+
+agora há um diretório receitas e um arquivo strogonoff.md em livro-receitas
+
+movendo o arquivo .md para o diretório receitas:
+
+9) mv strogonoff.md ./receitas
+10) dando um git status em livro-receitas, ele acusa que o .md está deletado e que o diretório receitas está untracked
+
+colocando o .md e o diretório na área de stage:
+
+11) git add strogonoff.md receitas
+12) git status
+
+agora ambos estão staged, prontos para atuarem...
+
+commitando (tudo isso em livro-receitas):
+
+13) git commit -m "cria pasta receitas, move arquivo para receitas"
+14) git status
+
+agora ambos estão commitados!
+
+criando a capa do livro de receitas (o arquivo que vai atuar como indexador) em livro-receitas:
+
+15) echo > README.md
+16) git status
+
+README.md está untracked...
+
+movendo todos os arquivos anteriores para staged:
+
+17) git add *
+18) git status
+
+README.md está staged...
+
+19) git commit -m "adiciona index"
+
+README.md está commitado e uma "foto" do código foi tirada e está aguardando novas modificações
+
+
