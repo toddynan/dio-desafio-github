@@ -1,0 +1,22 @@
+multicursor modifier:
+	- clicando em alt e clicando com o cursor, consigo editar várias linhas simultaneamente
+
+word wrap
+	- pula linha quando escreve muito
+	- on
+
+word wrap column
+	- 80
+
+ctrl + p
+	- busca de arquivos
+
+ctrl + shift + p
+	- mostra alguns comandos do vscode (comentários de linha por exemplo)
+	- comandos de possíveis extensões
+atalhos
+	- file > preferences > keyboard shortcuts
+
+emmet
+	- função de vários atalhos para criar estruturas de código em html5 por exemplo
+	- coloca html em arquivo html e seleciona html:5 em emmet, que a estrutura já será colocada

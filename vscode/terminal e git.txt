@@ -1,0 +1,13 @@
+1) aba terminal
+2) new terminal
+
+qualquer comando que eu digitaria no git bash, posso digitar ali
+
+opção de add ao path:
+
+3) code arquivo/pasta que quero abrir
+
+será aberta a pasta que estou dentro do terminal no vs code
+
+obs:
+	- git checkout -b teste (cria uma nova branch chamada teste)

@@ -1,0 +1,6 @@
+aba de extensões:
+	- pesquisar icons
+	1. filtro
+	2. category
+	3. themes
+	4. dracula
