@@ -1,0 +1,13 @@
+elemento html: é a base
+	- tag de abertura
+	- atributo
+	- conteúdo do elemento
+	- tag de fechamento
+
+estrutura básica:
+	1. doctype
+	2. tag html
+	3. elemento head
+	4. meta informações (tag meta - como será feito o encode dos caracteres)
+	5. elemento body
+	6. fecha o body e o html

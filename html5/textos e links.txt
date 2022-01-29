@@ -1,0 +1,13 @@
+textos e links
+
+textos maiores:
+	<p></p>
+	pode armazenar vídeos
+
+links:
+	<a>link</a>
+	
+	<a href="linkedin.com/in/renan-garcia">LinkedIn</a>
+	<a href="mailto:renan.garcia013@gmail.com">E-mail</a>
+
+	<a target="_blank">Link</a> -> indica como o link será aberto. em uma outra aba do navegador, por exemplo

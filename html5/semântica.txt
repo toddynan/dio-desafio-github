@@ -1,0 +1,9 @@
+semântica
+
+<section> - seção genérica
+<header> - cabeçalho
+<article> - conteúdo principal da página, um artigo por exemplo
+<aside> - relacionado ao conteúdo principal, biografia do autor do artigo, links relacionados etc.
+<footer> - rodapé
+<h1>-<h6> - importância do título em uma página
+	1. só pode um h1 por página

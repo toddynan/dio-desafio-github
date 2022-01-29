@@ -1,0 +1,12 @@
+box model
+
+margin:
+	espaçamento entre elementos
+
+border: circundam o padding e o conteúdo
+	pode-se alterar largura e cor
+
+padding: espaçamento entre a borda e o conteúdo
+
+content: é oq o bloco representa
+	texto, img ou vídeo

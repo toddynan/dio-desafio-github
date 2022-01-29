@@ -1,0 +1,11 @@
+seletores e declarações
+
+declarações são css entre chaves e seletores são elementos html
+
+class: .header
+
+id: #header
+	só pode ser usado uma vez na página
+
+no head do arquivo html:
+1) <link rel="stylesheet" -> qual tipo de arquivo

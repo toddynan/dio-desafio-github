@@ -1,0 +1,20 @@
+estilizando elementos
+
+padding:
+	valores para superior, inferior, direito, esquerdo
+	propriedades específicas para cada lado
+
+background:
+	cor do fundo, colocar uma imagem, mudar a posição
+	background-color: nome da cor, ou código
+	background: código
+
+border
+	largura
+	cor: código ou nome
+	estilo: sóido, pontilhada, tracejada
+	border-top, border-right, border-left, border-bottom, border-color, border-width (largura)
+	border-top-width, border-top-color
+
+border-radius: cantos
+	border-radius: 10px ou 50 %

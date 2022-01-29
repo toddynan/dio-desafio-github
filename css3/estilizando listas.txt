@@ -1,0 +1,9 @@
+estilizando listas
+
+list-style-type: muda o marcador
+	square
+	upper-roman
+	"\1F44D" (símbolo/emoji)
+
+list-style-image: coloca uma imagem como marcador
+	url("rocket.png")

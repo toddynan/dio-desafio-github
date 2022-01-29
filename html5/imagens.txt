@@ -1,0 +1,7 @@
+imagens
+
+<img src="img/avatar.jpg"> -> guarda o caminho da imagem
+	obrigatório
+
+<img alt="Foto de Renan Garcia"> -> oq a imagem significa
+	recomendado

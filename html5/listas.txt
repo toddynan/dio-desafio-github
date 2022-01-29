@@ -1,0 +1,10 @@
+tags:
+
+<ul>
+	a ordem dos itens não é importante
+
+<ol>
+	a ordem dos itens é importante
+
+<li>
+	elemento da lista

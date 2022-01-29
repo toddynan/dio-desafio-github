@@ -1,0 +1,26 @@
+estilizando textos
+
+font-family: altera a fonte do texto
+	fontes da web e da máquina
+	pode adicionar duas, caso a primeira n funcione
+
+font-size: tamanho do texto
+
+font-style: aparência do texto
+	normal é default
+	ver se a fonte tem suporte ao itálico
+
+fonte-weight: altera o peso do texto
+	normal: peso comum
+	bold: negrito
+
+text-transform:
+	maiúsculas e minúsculas
+	uppercase: todo o texto em maiúscula
+	lowercase: todo o texto em minúscula
+	capitalize: primeiras letras maíuscula
+
+text-decoration: destaca o texto
+	underline: linha abaixo da palavra
+	overline: acima
+	line-through: ao centro, cortando a palavra

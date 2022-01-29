@@ -1,0 +1,13 @@
+dimensão e alinhamento
+
+width - largura (px ou %)
+height - altura (px ou %)
+
+max-width
+max-height 
+	máximo que os elementos podem ter
+
+margin - espaçamento entre elementos
+	valor auto p alinhar o elemento personalizado à tela do computador
+
+text-align - left, right, center, justify
