@@ -1,0 +1,21 @@
+framework bootstrap
+
+bootstrap - sites responsivos (que não perdem a forma)
+
+divide a tela em 12 colunas
+	classes: container, row e col
+
+1) criar um repositório com README no github
+2) git clone https
+3) cd aula-bootstrap
+4) colocar a pasta no vscode
+5) download bootstrap
+
+botões do bootstrap:
+1) site bootstrap
+2) docs
+3) components
+4) buttons
+5) navbar
+
+sites com cores o melhor é utilizar o padding-top
